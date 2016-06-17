@@ -1,0 +1,13 @@
+#entryPanel2>.topSection,
+#entryPanel2>.bottomSection{
+    width: 100%;
+    position: relative;
+    border: 1px solid #888;
+}
+#entryPanel2>.bottomSection{
+    height: 50px;
+}
+#entryPanel2>.bottomSection>div {
+    float: right;
+    padding: 15px;
+}

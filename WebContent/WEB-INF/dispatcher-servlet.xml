@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-3.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
+
+	<mvc:annotation-driven />
+	<mvc:resources mapping="/css/**" location="/css/" />
+	<mvc:resources mapping="/fonts/**" location="/fonts/" />
+	<mvc:resources mapping="/plugin/**" location="/plugin/" />
+	<mvc:resources mapping="/images/**" location="/images/" />
+	<mvc:resources mapping="/img/**" location="/img/" />
+	<mvc:resources mapping="/js/**" location="/js/" />
+
+	<context:component-scan base-package="com.progen.controller" />
+
+	<bean
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/view/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+	<bean id="mainService" class="com.progen.service.impl.MainServiceImpl">
+		<property name="mainDAO">
+			<ref bean="mainDAO" />
+		</property>
+		<property name="masterCache">
+		<ref local="masterCache"/>
+		</property>
+	</bean>
+
+	<bean id="mainDAO" class="com.progen.dao.rdbms.MainDaoRdbms">
+		<property name="dataSource">
+			<ref bean="dataSource" />
+		</property>
+
+		<property name="sessionFactory">
+			<ref bean="sessionFactory" />
+		</property>
+	</bean>
+
+
+	<bean id="masterCache" class="com.progen.cache.impl.MasterCacheDaoImpl">
+	</bean>
+
+
+
+
+<!--
+	<bean id="simpleTrigger" class="org.springframework.scheduling.quartz.SimpleTriggerFactoryBean">
+    see the example of method invoking job above
+    <property name="jobDetail" ref="jobDetail"/>
+    10 seconds
+    <property name="startDelay" value="10000"/>
+    repeat every 50 seconds
+    <property name="repeatInterval" value="50000"/>
+</bean>
+
+<bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+    <property name="jobDetail" ref="exampleJob"/>
+    run every morning at 6 AM
+    <property name="cronExpression" value="0 0 6 * * ?"/>
+</bean>
+
+
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+    <property name="triggers">
+        <list>
+            <ref bean="cronTrigger"/>
+            <ref bean="simpleTrigger"/>
+        </list>
+    </property>
+</bean>
+ -->
+</beans>
+

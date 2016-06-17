@@ -1,0 +1,80 @@
+#userReg .leftSec,
+#userReg .rightSec{
+    padding: 0px;
+    height: 100%;
+}
+#userReg .leftSec{width: 40%;float: left;border: 1px solid #888;}
+#userReg .rightSec{width: 58%;float: right;}
+#userReg .rightSec form{width: 100%;height: 100%;}
+
+#userReg .rightSec .section1,
+#userReg .rightSec .section2,
+#userReg .rightSec .section3,
+#userReg .rightSec .section4,
+#userReg .rightSec .section5,
+#userReg .rightSec .section6{
+    width: 100%;
+    height: 100px;
+    border: 1px solid #888;
+    margin-top: 5px;
+    padding: 5px;
+}
+#userReg .rightSec .section2{
+    height: 120px;
+}
+#userReg .rightSec .section3,
+#userReg .rightSec .section4{
+    border: none;
+    padding: 0px;
+}
+#userReg .rightSec .section4{
+    height: 120px;
+}
+#userReg .rightSec .section5,
+#userReg .rightSec .section6{
+    height: 40px;
+}
+
+#userReg .rightSec .section1 label,
+#userReg .rightSec .section2 label,
+#userReg .rightSec .section3 label,
+#userReg .rightSec .section4 label{
+    width: 35%;
+    float: left;
+    text-align: right;
+    margin: 0px 10px 0px 0px;
+    padding: 7px 0px 0px 0px;
+}
+#userReg .rightSec .section1 input,
+#userReg .rightSec .section1 select,
+#userReg .rightSec .section2 input,
+#userReg .rightSec .section2 select,
+#userReg .rightSec .section3 input,
+#userReg .rightSec .section3 select,
+#userReg .rightSec .section4 input,
+#userReg .rightSec .section4 select{
+    width: 50%;margin-top: 5px;
+}
+#userReg .rightSec .section1 input:nth-child(6),
+#userReg .rightSec .section1 input:nth-child(7),
+#userReg .rightSec .section1 input:nth-child(8){
+	float:left;
+	width: 15%;
+	margin-right: 2%;
+}
+#userReg .rightSec .section3 .leftSection,
+#userReg .rightSec .section3 .rightSection,
+#userReg .rightSec .section4 .leftSection,
+#userReg .rightSec .section4 .rightSection{
+    width: 48%;
+    height: 100%;
+    border: 1px solid #888;
+    float: left;
+    padding: 5px;
+    
+}
+#userReg .rightSec .section3 .rightSection,
+#userReg .rightSec .section4 .rightSection{
+    float: right;
+    margin-left: 5px;
+}

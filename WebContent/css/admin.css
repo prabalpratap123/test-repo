@@ -1,0 +1,201 @@
+.adminLeftPanel{
+    height: 100%;
+    width: 75%;
+    float: left;
+}
+.adminLeftPanel .sectionFirst{
+    height: 60px;
+    width: 100%;
+}
+
+.adminLeftPanel .sectionSecond{
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid #888;
+}
+.adminLeftPanel .sectionSecond .leftSec{
+    width: 80%;
+    height: 60px;
+    float: left;
+    padding: 5px;
+}
+.adminLeftPanel .sectionSecond .leftSec .top,
+.adminLeftPanel .sectionSecond .leftSec .bot{
+    height: 50%;
+    width: 100%;
+    float: left;
+    margin: 2px 0px;
+}
+.adminLeftPanel .sectionSecond .leftSec .top *,
+.adminLeftPanel .sectionSecond .leftSec .bot *{
+    float: left;
+    margin: 2px;
+}
+.adminLeftPanel .sectionSecond .leftSec .top span,
+.adminLeftPanel .sectionSecond .leftSec .bot span{
+    padding: 5px;
+}
+
+.adminLeftPanel .sectionSecond .rightSec{
+    width: 16%;
+    height: 50px;
+    float: right;
+    border: 1px solid #888;
+    margin: 12px;
+    text-align: center;
+}
+.adminLeftPanel .sectionSecond .rightSec span{width: 100%;display: block;}
+.adminLeftPanel .sectionSecond .rightSec button{    width: 40%;
+    margin: 2%;}
+.adminLeftPanel .sectionSecond .rightSec{
+}
+.adminLeftPanel .sectionSecond input,
+.adminLeftPanel .sectionSecond select{
+    width: 100px;
+}
+.adminLeftPanel .sectionSecond input[class*="wd50px"]{
+    width: 50px;
+}
+.adminLeftPanel .sectionThird{
+    border: 1px solid #888;
+    width: 98%;
+    margin: 0px 1%;
+}
+.adminLeftPanel .sectionFourth{
+    width: 100%;
+    height: 80px;
+}
+.adminLeftPanel .sectionFifth,
+.adminLeftPanel .sectionSixth{
+    width: 100%;
+    height: 50px;
+}
+.adminLeftPanel .sectionFourth .leftSec,
+.adminLeftPanel .sectionFourth .rightSec{
+    height: 100%;
+    float: left;
+}
+.adminLeftPanel .sectionFourth .leftSec{width: 73%;padding: 8px 0px 0px 10px;}
+.adminLeftPanel .sectionFourth .rightSec{width: 26%;padding: 30px 15px}
+.adminLeftPanel .sectionFourth .rightSec .bot{margin: 5% 0%;}
+.adminLeftPanel .sectionFourth .rightSec .bot button{margin: 0px 2px;}
+.adminLeftPanel .sectionFourth .leftSec textarea{width: 100%;height: 70px;}
+.adminLeftPanel .sectionFifth .top,
+.adminLeftPanel .sectionFifth .bot,
+.adminLeftPanel .sectionSixth .top,
+.adminLeftPanel .sectionSixth .bot {width: 100%; padding: 5px;}
+.adminLeftPanel .sectionFifth .top,
+.adminLeftPanel .sectionSixth .top
+{height: 20px;float: left;}
+.adminLeftPanel .sectionFifth .bot,
+.adminLeftPanel .sectionSixth .bot,
+{height: 40px;}
+.adminLeftPanel .sectionFifth .bot *,
+.adminLeftPanel .sectionFifth .top *,
+.adminLeftPanel .sectionSixth .bot *,
+.adminLeftPanel .sectionSixth .top *
+{float: left;margin: 5px;}
+.adminLeftPanel .sectionFifth .top span:first-child,
+.adminLeftPanel .sectionFifth .bot input:first-child,
+.adminLeftPanel .sectionSixth .top span:first-child,
+.adminLeftPanel .sectionSixth .bot input:first-child
+{width: 5%;}
+.adminLeftPanel .sectionFifth .top span:nth-child(2),
+.adminLeftPanel .sectionFifth .top span:nth-child(3),
+.adminLeftPanel .sectionFifth .bot input:nth-child(2),
+.adminLeftPanel .sectionFifth .bot input:nth-child(3),
+.adminLeftPanel .sectionSixth .top span:nth-child(2),
+.adminLeftPanel .sectionSixth .top span:nth-child(3),
+.adminLeftPanel .sectionSixth .bot input:nth-child(2),
+.adminLeftPanel .sectionSixth .bot input:nth-child(3),
+.adminLeftPanel .sectionFifth .top span:nth-child(4),
+.adminLeftPanel .sectionFifth .bot .form-control:nth-child(4),
+.adminLeftPanel .sectionSixth .top span:nth-child(4),
+.adminLeftPanel .sectionSixth .bot .form-control:nth-child(4)
+{width: 10%;}
+.adminLeftPanel .sectionFifth .top span:nth-child(5),
+.adminLeftPanel .sectionFifth .bot .form-control:nth-child(5),
+.adminLeftPanel .sectionSixth .top span:nth-child(5),
+.adminLeftPanel .sectionSixth .bot .form-control:nth-child(5){width: 15%;}
+.adminLeftPanel .sectionFifth .top span:nth-child(6),
+.adminLeftPanel .sectionFifth .bot .form-control:nth-child(6),
+.adminLeftPanel .sectionSixth .top span:nth-child(6),
+.adminLeftPanel .sectionSixth .bot .form-control:nth-child(6){width: 20%;}
+.adminLeftPanel .box1,
+.adminLeftPanel .box2,
+.adminLeftPanel .box3{
+    height: auto;
+    width: auto;
+    border: 1px solid #888;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+}
+.adminLeftPanel .box1 input,
+.adminLeftPanel .box1 input,
+.adminLeftPanel .box2  input,
+.adminLeftPanel .box2  input,
+.adminLeftPanel .box3  select{
+    width: 50%;
+    max-width: 100px;
+}
+.adminLeftPanel .box2 span,
+.adminLeftPanel .box3  span{
+    float: left;
+    /* width: 30%; */
+    display: block;
+    padding: 5px 0px 0px 8px;
+}
+.adminLeftPanel .box3  span{
+	padding: 4px;
+}
+.adminLeftPanel .box3 .top,
+.adminLeftPanel .box3 .mid,
+.adminLeftPanel .box3 .bot{
+    width: 100%;
+    height: 30%;
+}
+.adminLeftPanel .box3 .top *,
+.adminLeftPanel .box3 .mid *,
+.adminLeftPanel .box3 .bot *{
+    float: left;
+}
+.adminLeftPanel .box3 .top span{padding: 5px 3px;}
+.adminLeftPanel .box3 .mid button,
+.adminLeftPanel .box3 .bot button{
+    width: 45%;
+}
+.adminRightPanel{
+    height: 100%;
+    width: 25%;
+    float: left;
+    border: 1px solid #888;
+}
+.adminRightPanel .top{
+    height: 85%;
+    width: 100%;
+    overflow: hidden;
+}
+.adminRightPanel .bot{
+    height: 60px;
+    width: 100%;
+}
+.adminRightPanel .bot .first,
+.adminRightPanel .bot .second{
+    width: 100%;
+    height: auto;
+}
+.adminLeftPanel .box1 input[type=text],
+.adminLeftPanel .box2 input[type=text],
+.adminLeftPanel .box3 *,
+.adminRightPanel .bot input[type=text]{
+    float: left;
+    margin: 2px;
+}
+
+.adminRightPanel .bot .first input,
+.adminRightPanel .bot .second input
+{width: 60%;}
+.adminRightPanel .bot .first input:first-child,
+.adminRightPanel .bot .second input:first-child
+{width: 30%;}

@@ -1,0 +1,126 @@
+#index{
+    padding: 0px;
+}
+#index>.header>.compLogo{
+    width: 270px;
+    height: 80px;
+    float: left;
+}
+#index>.header{
+  height: 60px;
+  width: 100%;
+  position: fixed; 
+  border-bottom: 1px solid #888; 
+  background-color: #4caf50; 
+}
+#index>.header>.compLogo img{
+    height: 100%;
+    width: 100%;
+    margin-top: -7px;
+}
+
+
+#index>.header>.loginBox{
+    width: 330px;
+    height: 100%;
+    background-color: transparent;
+    float: right;
+    padding: 5px;
+    margin-right: 30px;
+    font-size: 12px;
+}
+
+#index>.header>.loginBox input[type=text]{
+    width: 100px;
+}
+
+#index>.navigation{
+    width: 100%;
+    height: 30px;
+    margin-top: 60px;
+    background: #353535;
+    position: fixed;
+}
+#index>.navigation ul{
+    padding: 0px 30px;
+    margin: 0px;
+    height: 30px;
+    width: 100%;
+}
+#index>.navigation ul li{
+    list-style-type: none;
+    width: auto;
+    height: 100%;
+    float: left;
+    display: block;
+    margin-right: 2px;
+}
+#index>.navigation ul li a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 0px;
+    height: 100%;
+
+}
+#index>.navigation .active, .navigation ul li a:hover{
+    background-color: #888;
+}
+
+
+#index>.contents{
+    position: relative;
+    margin-top: 100px;
+}
+#index #home .rows,
+#index .contents .rightSection .rows{
+    margin-top: 10px;
+}
+#index #home .rows .header,
+#index .contents .rightSection .rows .header{
+   height: 24px;
+    width: 100%;
+    border: 1px solid #888;
+    background-color: #545454;
+    color: #fff;
+    font-size: 16px;
+    padding: 0px 0px 0px 20px;
+    font-weight: bold;
+}
+#index #home .rows .header i,
+#index .contents .rightSection .rows .header i{
+    float: right;
+margin-right: 20px;
+}
+#index #home .rows .content,
+#index .contents .rightSection .rows .content{
+    border-width: 0px 1px 1px 1px;
+    border-color: #888;
+    border-style: solid;
+    display: none;
+}
+
+
+
+
+
+.tbl{
+    float: left;
+    height: 20px;
+    width: 10px;
+    padding: 3px 5px;
+    margin: 2px;
+    text-align: center;
+} 
+.Col1{width: 20px;}
+.Col2{width: 250px;}
+.Col3{width: 30px;text-align: left;}
+.Col4,.Col5,.Col7,.Col8,.Col10,.Col11{width: 40px}
+.Col12,.Col13{width: 30px;text-align: center;background-color: aquamarine}
+
+
+
+
+

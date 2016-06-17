@@ -1,0 +1,74 @@
+#entryPanel>.leftSection,
+#entryPanel>.rightSection{
+    height: auto;
+    float: left;
+    border: 1px solid #888;
+    position: relative;
+}
+#entryPanel>.rightSection{height: 95%}
+#entryPanel>.leftSection{
+    width: 76%;
+    margin-right: 2%;
+}
+#entryPanel>.rightSection{
+    width: 22%;
+}
+#entryPanel>.leftSection>.top,
+#entryPanel>.leftSection>.bottom{
+    width: 100%;
+}
+#entryPanel>.leftSection>.top{
+    height: 80%;
+    margin-bottom: 2%;
+}
+#entryPanel>.leftSection>.top>div{border: 1px solid #888;}
+#entryPanel>.leftSection>.top table td,
+#entryPanel>.rightSection table td{
+    border-radius: 0px;
+}
+#entryPanel>.leftSection>.bottom{
+    height: auto;
+    position: relative;
+}
+#entryPanel>.leftSection>.bottom>.first,
+#entryPanel>.leftSection>.bottom>.second{
+    width: 100%;
+    height: 50%;
+}
+#entryPanel>.leftSection>.bottom>.first{
+    position: relative;
+    height: 30px;
+    padding: 0px 10px;
+}
+#entryPanel>.leftSection>.bottom>.second{
+    height: 50px;
+    position: relative;
+    padding: 0px 10px;
+}
+#entryPanel>.leftSection>.bottom>.first input:nth-child(5),
+#entryPanel>.leftSection>.bottom>.first input:nth-child(6){
+    width: 100px;
+}
+#entryPanel>.leftSection>.bottom>.second>.top{
+    width: 100%;height: 15px;padding: 2px 5px;
+}
+#entryPanel>.leftSection>.bottom>.second>.bottom{
+    width: 100%;height: 30px;padding: 2px 5px;position: absolute;
+}
+#entryPanel>.leftSection>.bottom>.second>.top span:nth-child(1),
+#entryPanel>.leftSection>.bottom>.second>.top span:nth-child(2),
+#entryPanel>.leftSection>.bottom>.second>.top span:nth-child(3),
+#entryPanel>.leftSection>.bottom>.second>.top span:nth-child(4),
+
+#entryPanel>.leftSection>.bottom>.second>.bottom input:nth-child(1),
+#entryPanel>.leftSection>.bottom>.second>.bottom input:nth-child(2),
+#entryPanel>.leftSection>.bottom>.second>.bottom input:nth-child(3),
+#entryPanel>.leftSection>.bottom>.second>.bottom select:nth-child(4){
+    width: 100px;
+}
+#entryPanel>.leftSection>.bottom>.second>.top span:nth-child(5),
+#entryPanel>.leftSection>.bottom>.second>.bottom select:nth-child(5){
+    width: 200px;
+}
+
+
